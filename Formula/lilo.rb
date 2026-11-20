@@ -7,7 +7,7 @@ class Lilo < Formula
   on_macos do
     on_arm do
       url "https://github.com/philinscience/lilo-cli-releases/releases/download/v0.1.0/lilo-0.1.0-darwin-arm64.tar.gz"
-      sha256 "60927406477eb4b571e2fc2ff8e5dc1f61178513e95fada64bff9c6131e4d3c5"
+      sha256 "0367da86f544f46f9fd078c69c7ec9f8e625b5a7b4b80cadd5ac8eca62f7ce6d"
     end
   end
 
