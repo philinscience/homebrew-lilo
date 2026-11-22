@@ -1,28 +1,28 @@
 class Lilo < Formula
   desc "Lilo in the terminal: science chat that searches and reads the literature"
   homepage "https://www.drlilo.com"
-  version "0.1.0"
+  version "0.1.1"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/philinscience/lilo-cli-releases/releases/download/v0.1.0/lilo-0.1.0-darwin-arm64.tar.gz"
-      sha256 "0367da86f544f46f9fd078c69c7ec9f8e625b5a7b4b80cadd5ac8eca62f7ce6d"
+      url "https://github.com/philinscience/lilo-cli-releases/releases/download/v0.1.1/lilo-0.1.1-darwin-arm64.tar.gz"
+      sha256 "547afa7984507ca215df67f0c5125cbaf2d8c57d09febad6173da1d80aa71c4a"
     end
     on_intel do
-      url "https://github.com/philinscience/lilo-cli-releases/releases/download/v0.1.0/lilo-0.1.0-darwin-x86_64.tar.gz"
-      sha256 "3500ffe936a84d50297994742085161d6016f30f8d8cb7479f809d2a5031898c"
+      url "https://github.com/philinscience/lilo-cli-releases/releases/download/v0.1.1/lilo-0.1.1-darwin-x86_64.tar.gz"
+      sha256 "1022ac53ffe9dbef30ff87fd600df1ceeaececb9a3247fc4d16200512315e911"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/philinscience/lilo-cli-releases/releases/download/v0.1.0/lilo-0.1.0-linux-arm64.tar.gz"
-      sha256 "7e8a7f121d95e4798d905ba11aba5d2fee19ec1cf5fd3849eab840aab4b248fd"
+      url "https://github.com/philinscience/lilo-cli-releases/releases/download/v0.1.1/lilo-0.1.1-linux-arm64.tar.gz"
+      sha256 "cec9fc628dce8656675c84a1962d640d6ac83fbcf7c877987396baefd9c1eb72"
     end
     on_intel do
-      url "https://github.com/philinscience/lilo-cli-releases/releases/download/v0.1.0/lilo-0.1.0-linux-x86_64.tar.gz"
-      sha256 "fa9f4e3bb273ced3238e066b4ce51262bc2514aae08da75d114f72eba7901329"
+      url "https://github.com/philinscience/lilo-cli-releases/releases/download/v0.1.1/lilo-0.1.1-linux-x86_64.tar.gz"
+      sha256 "8b5d222dc201b11de8e279067ca8aebe993da4eea826e3e9d3bffb702911f337"
     end
   end
 
